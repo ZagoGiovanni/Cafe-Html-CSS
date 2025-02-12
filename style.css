@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    text-decoration: none;
+}
+body {
+    background-image: linear-gradient(to bottom,black,green);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.extras img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    right: 400px;
+    border-radius: 50%;
+    margin: 0px 15px;
+    
+}
+
+.lista_link{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+}
+.link_img{
+   display: flex;
+   flex-direction: column;
+   gap:1rem;
+   color:white;
+   font-size: 30px;
+}
+.container a:hover{
+    transform: scale(1.05);
+}
+
+.botao_img:hover {
+    transform: scale(1.05);
+}
+.botao_img{
+    width:30vw;
+    transition: 0.6s ease;
+}
+
+.extras {
+    display: flex;
+    align-items: center;
+}
+.redes{
+    display: flex;
+}
+.container h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width:80vw;
+}
+
+.container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+header {
+    padding: 1rem;
+}
+
+nav button {
+    color: black;
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    font-size: 20PX;
+    transition: 0.6s ease;
+}
+footer{
+    padding: 2rem;
+}
+
+
